@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Rambla:400,700');
 @mixin rambla-regular {
     font-family: 'Rambla', sans-serif;
     font-weight: 400;
@@ -229,14 +230,12 @@
                     p {
                         margin-top: 0px;
                         color: #2f1a4b;
-                        font-weight: bold;
                         font-size: 16px;
                         @include rambla-bold;
                     }
                     h3 {
                         margin-bottom: 3px;
                         color: #78747f;
-                        font-weight: 400;
                         font-size: 12px;
                         @include rambla-regular;
                     }
